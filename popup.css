@@ -1,0 +1,37 @@
+body {
+    background:black;
+}
+h2,h5{
+    color: white;
+}
+.wrapper {
+    width: 300px;
+    text-align: center;
+}
+.changeColorBtn {
+    color: white;
+    width: 280px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    cursor: pointer;
+}
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue {
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+}
